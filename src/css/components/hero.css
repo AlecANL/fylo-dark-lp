@@ -1,0 +1,41 @@
+.hero {
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  background-color: var(--bg-intro);
+  padding-block-end: 7.5rem;
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: var(--just-white);
+  z-index: 10;
+}
+.hero h1 {
+  font: var(--mobile-headline1Bold);
+}
+.hero p {
+  font: var(--mobile-body1Regular);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content {
+    max-inline-size: 45rem;
+    margin-inline: auto;
+  }
+  .hero h1 {
+    font: var(--desktop-headline1Bold);
+  }
+  .hero p {
+    font: var(--desktop-body1Regular);
+  }
+  .hero-cover img {
+    inline-size: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-cover img {
+    inline-size: 720px;
+    block-size: 534px;
+  }
+}

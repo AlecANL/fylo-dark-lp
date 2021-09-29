@@ -1,0 +1,10 @@
+@import './base.css';
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/hero.css';
+@import './components/main-content.css';
+@import './components/featured.css';
+@import './components/about.css';
+@import './components/testimonials.css';
+@import './components/contact.css';
+@import './components/buttons.css';

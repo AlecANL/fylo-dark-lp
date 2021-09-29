@@ -1,0 +1,60 @@
+.contact {
+  position: absolute;
+  background-color: #1b2330;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+  border-radius: 9px;
+  text-align: center;
+  padding-block: 2.5rem;
+  padding-inline: 1.75rem;
+  max-inline-size: 860px;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  inset-block-end: -20%;
+}
+.form-control input {
+  padding: 1rem;
+  background-color: var(--just-white);
+  border-radius: 3.125rem;
+  border-color: transparent;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-control button {
+  align-self: flex-start;
+  inline-size: 100%;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+}
+.form-group span {
+  display: block;
+  color: red;
+  display: none;
+}
+@media screen and (min-width: 480px) {
+  .contact {
+    inset-block-end: -25%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    inset-block-end: -35%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact {
+    inset-block-end: -30%;
+  }
+  .form-control {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

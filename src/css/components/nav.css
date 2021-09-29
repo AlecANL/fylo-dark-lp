@@ -1,0 +1,23 @@
+.navigation a {
+  font: var(--mobile-link1Regular);
+  color: var(--just-white);
+  text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+  padding-block: 1.5rem;
+  display: block;
+}
+.navigation a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navigation__list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation a {
+    font: var(--desktop-link1Regular);
+    padding-inline: 1.5rem;
+  }
+}

@@ -1,0 +1,60 @@
+:root {
+  --openSansFont: 'Open Sans', sans-serif;
+  --ralewayFont: 'Raleway', sans-serif;
+  --main-color: hsl(218, 28%, 13%);
+  --bg-footer: hsl(216, 53%, 9%);
+  --bg-testimonial: hsl(219, 30%, 18%);
+  --bg-intro: hsl(217, 28%, 15%);
+  --just-cyan: hsl(176, 68%, 64%);
+  --blue-gradient: linear-gradient(134.79deg, #63e1d9 -42.11%, #34a0cd 100%);
+  --just-white: #fff;
+  --just-black: #000;
+  --just-red: #ff4242;
+  --mobile-link1Regular: 400 0.75rem / 0.875rem var(--ralewayFont);
+  --mobile-headline1Bold: bold 1.5rem / 2.25rem var(--ralewayFont);
+  --mobile-body1Regular: 400 0.875rem / 1.3125rem var(--openSansFont);
+  --mobile-buttonBold: bold 0.875rem / 1rem var(--ralewayFont);
+  --mobile-smallRegular: 400 0.625rem / 1.125rem var(--openSansFont);
+  --mobile-headline3Bold: bold 1.125rem / 1.5rem var(--ralewayFont);
+  --desktop-link1Regular: 400 1rem / 1.125rem var(--ralewayFont);
+  --desktop-headline1Bold: bold 2.5rem / 3.75rem var(--ralewayFont);
+  --desktop-body1Regular: 400 1.25rem / 1.875rem var(--openSansFont);
+  --desktop-headline3Bold: bold 1.125rem / 1.5rem var(--ralewayFont);
+  --desktop-headline2Bold: bold 2.5rem / 3.125rem var(--ralewayFont);
+  --mobile-smallRegular: 400 0.75rem / 1rem var(--openSansFont);
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-inline-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--openSansFont);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: var(--ralewayFont);
+}
+blockquote {
+  margin: 0;
+}
+.wrapper {
+  max-inline-size: 1235px;
+  margin: auto;
+}

@@ -1,0 +1,22 @@
+.btn {
+  border-color: transparent;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  font: var(--mobile-buttonBold);
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  /* opacity: 0.5; */
+  background-color: #8adae3;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.is-blue-gradient {
+  padding-inline: 5.0625rem;
+  background: var(--blue-gradient);
+  color: var(--just-white);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}

@@ -1,0 +1,29 @@
+.featured {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5rem;
+}
+.featured-card {
+  text-align: center;
+}
+.featured-card h3 {
+  margin-block-start: 1.5rem;
+  margin-block-end: 0.5rem;
+}
+.featured-card p {
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .featured {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured {
+    place-content: center;
+    grid-template-columns: 364px 364px;
+    gap: 9.625rem;
+  }
+}

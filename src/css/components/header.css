@@ -1,0 +1,23 @@
+@import './nav.css';
+
+.header {
+  position: sticky;
+  inset-block-start: 0;
+  background-color: var(--bg-intro);
+  /* padding-block: 1.5rem; */
+  padding-inline: 1.25rem;
+  z-index: 9999;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo img {
+  inline-size: 5rem;
+  block-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+}
